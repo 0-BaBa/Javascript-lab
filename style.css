@@ -1,0 +1,15 @@
+body {
+    border: 3px solid black;
+    /*our pikachu went out of borders */
+    display: flow-root;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+}

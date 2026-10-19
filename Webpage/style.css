@@ -1,0 +1,46 @@
+/* i can set margin of body{} 0 too to make everything fir*/
+body {
+    background-image: url("https://i.pinimg.com/1200x/45/87/46/458746caaa0516a5519c96e5f35308b6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    /* Remove bullets */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    background-color: #8f8d8d;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+}
+
+.navbar li {
+    display: inline-block;
+    /* Display list items horizontally */
+    margin-right: 20px;
+    /* Add spacing between list items */
+}
+
+.navbar a:hover {
+    background-color: #b5b6b5;
+    border-radius: 10px;
+}
